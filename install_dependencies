@@ -1,9 +1,4 @@
 #!/bin/bash
 
-echo "Install Apache Server"
 yum install httpd -y
-echo installation completed
 
-echo "service httpd start"
-service httpd start
-chkconfig httpd on
